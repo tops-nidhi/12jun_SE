@@ -1,0 +1,20 @@
+programme:-
+->Set of instruction
+
+Types:-
+1.High level
+->near to human and far to machine
+    i)POP-Procedure oriented programming
+        ->c, basic, fortran
+    ii)OOP-Object Oriented programming 
+        ->c++, java, .net, c# 
+    iii)Logical  programming language
+        ->Prolog
+    iv)Functional programming language
+        ->lisp,  python
+    v)Scripting language
+        ->javascript
+2.Low level
+->Near to machine and far to human
+    i)Machine language
+    ii)Assembly language
