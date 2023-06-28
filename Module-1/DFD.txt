@@ -1,0 +1,5 @@
+DFD - Data Flow Diagram
+- Use to show the flow of system's data
+types:
+1. 0 level DFD
+2. 1 Level DFD

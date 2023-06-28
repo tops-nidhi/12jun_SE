@@ -1,0 +1,7 @@
+Flow chart:-
+- It is use to show the flow of the process
+
+types:
+1. Linear/ Sequential Diagram
+2. Branching 
+3. Looping 
