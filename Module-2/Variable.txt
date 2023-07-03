@@ -1,0 +1,8 @@
+Variable:-
+- Variable is like container which is use to store the value 
+
+types:-
+1.Local variable
+    - Scope of the local variable is inside that block
+2.Global Variable
+3.Formal Parameter

@@ -1,0 +1,19 @@
+1.KeyWord:-
+- Reserve words in c programming language
+
+2.Identifier:-
+- Name of the variable of user define function
+
+rules:-
+    - You can't use the keyword as identifier
+    - It can only hold alphabet, number, or underscore
+    - can't use special character
+    - Can't start with the number
+    - You can use maximum 31 latter
+
+3.Constant:-
+- You can't change hte value
+- Constant variable is define by using const keyword or #define
+
+5.Operator:-
+- +   : Addition operator
