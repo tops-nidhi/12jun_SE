@@ -14,4 +14,3 @@ int main(){
     printf("\nModulo: %d", a%b);
     return 0;
 }
-
