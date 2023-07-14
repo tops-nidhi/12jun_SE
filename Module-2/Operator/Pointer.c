@@ -3,11 +3,16 @@
 #include<stdio.h>
 int main()
 {
-    int a = 100;
+    int a = 85;
     int *ptr;// create a pointer variable
     ptr = &a;
     printf("Address of the a is:%d", ptr);
-    ptr++;
-    printf("Address of the a after increment is:%d ", ptr);
+    // ptr++;
+    // printf("\nAddress of the a after increment is:%d ", ptr);
+    printf("\nValue of the a is: %d", *ptr);
+    *ptr = 15;
+    printf("\nValue of the a is: %d", a);
+    ++*ptr;
+    printf("\nAfter increment value of the a is:%d", a);
     return 0;
 }
