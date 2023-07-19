@@ -1,0 +1,13 @@
+Loop is use to execute the line of statement multiple times
+
+->By default loop's starting index is '0'.
+->By default loop is execute infinite times.
+
+Types:-
+    1.Entry Control Loop:-
+        i.) For loop
+        ii.) While Loop 
+    2.Exit Control Loop:-
+        i.) Do-While loop
+        
+    ->By default exit Control loop execute one time.
