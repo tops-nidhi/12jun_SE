@@ -1,0 +1,27 @@
+function 
+- Function is block is code.
+
+types:
+
+1 built in:- 
+->printf(), scanf()
+------------------------------
+2 UDF(user define function)
+->which was define by user
+
+a)without return without parameter
+b)without return_type with parameter
+c)with return without parameter
+d)with return type with parameter
+
+e.recursion(function call it self)
+--------------------------------
+return_type UDF_name (parameter/argument)
+{
+    //function body
+}
+//example of UDF
+int data ()
+{
+	return 5;
+}
