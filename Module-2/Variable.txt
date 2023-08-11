@@ -3,6 +3,28 @@ Variable:-
 
 types:-
 1.Local variable
-    - Scope of the local variable is inside that block
 2.Global Variable
 3.Formal Parameter
+
+1.Local variable
+->Define inside the function
+-> Scope of the local variable is inside that block
+ex.void data()
+{
+	int no;//local variable
+	//INSIDE THE that function only
+}
+------------------------------------------------------
+2.global variable
+->Define outside the all function
+ex.int no;//global variable
+//Everywhere
+void data(int no)
+{
+	//code
+}
+------------------------------------------------------
+3.Formal parameter
+->Define as parameter
+ex.void data(int no/*formal parameter*/)
+//inside the that function only
