@@ -1,0 +1,38 @@
+HTML-Hyper Text Markup Language 
+->Html is use to define the structure of the web page
+---------------------------------------------
+Tag:- 
+-> Tag is use to tell the browser how to show the content
+<html></html>:- is the root element 
+    Types:-
+        1.Pair Tag
+            ->ex., p, title, div, script
+            start tag: -> <title>
+            End tag: -> </title>
+        2.Non Pair / Void / self / empty Tag
+            ->ex., br, hr, link, meta
+--------------------------------------------------------------------
+Content:-
+-> Which is define between the start tag and end tag.
+
+for ex., <title>Info</title>
+-> Here 'info' is the content
+-------------------------------------------------------------------
+Element:-
+->Combination of start tag, content, and end tag
+    for ex., <title>Info</title>
+
+    1.Inline element:-
+    ->By default height and width according to the content
+    ->b, u, i, strong, span, img, a
+
+    2.Block level element:-
+    ->By default width of the of block level element is full width of the screen
+    ->p, br, blockquote, div, h1 to h6, li
+-------------------------------------------------------------------
+Attribute:-
+->Attribute is use to define the property of the element.
+->Attribute is use to define additional information 
+->Attribute is compulsory define inside the start tag
+
+for ex., <html lang="en"></html>

@@ -1,0 +1,8 @@
+DELIMITER $$
+	CREATE TRIGGER `TRIGGER_NAME` (AFTER | BEFORE) {INSERT | UPDATE | DELETE} ON `table_name` FOR EACH ROW 
+    
+    BEGIN
+    
+    	INSERT into `table_name` SET `column_name = new.column_name | old.column_name;
+    	
+    END$$

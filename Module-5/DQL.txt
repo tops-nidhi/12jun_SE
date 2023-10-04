@@ -1,0 +1,39 @@
+DQL - Data Query Language
+
+1.Select(fetch the all data):-
+->SELECT * FROM `table_name`;
+
+2.Fetch selected column data:-
+->SELECT `column_name1`, `column_namen` FROM `table_name`; 
+
+3.Fetch unique data:-
+->SELECT DISTINCT * FROM `table_name`;
+
+4.Specific Data:-
+->SELECT `column_name` FROM `table_name` where id = 101;
+
+5.Aggregate Function:-
+->SELECT SUM(`id`) as sum_of_id FROM `table_name` ;
+
+->SELECT COUNT(`id`) as count_of_id FROM `table_name`; 
+
+->SELECT avg(`id`) as avg_of_id FROM `table_name`;
+
+->SELECT min(`id`) as min_of_id FROM `table_name`; 
+->SELECT max(`id`) as max_of_id FROM `table_name`;
+
+6.Arrange the column in descending or ascending:-
+->SELECT * FROM `table_name` ORDER BY `id` ASC|DESC;
+
+7.Like:-
+->SELECT * FROM `table_name` WHERE `column_name` LIKE= 'a%';
+
+8.Join:-
+->SELECT table1_name.column_name, table2_name.column_name...FROM table1_name LEFT JOIN table2ON 
+table1_name.column_name = table2.column_name;
+
+->SELECT table1_name.column_name, table2_name.column_name...FROM table1_name Right JOIN table2ON 
+table1_name.column_name = table2.column_name;
+
+->SELECT table1_name.column_name, table2_name.column_name...FROM table1_name Inner JOIN table2ON 
+table1_name.column_name = table2.column_name;

@@ -1,0 +1,46 @@
+DDL:- Data Definition Language
+1.Create database:-
+->Create database database_name
+
+2.Create Table:-
+->CREATE TABLE `table_name` 
+(
+    `column_name1` datatype (size),
+    `column_name2` datatype (size),
+    `column_namen` datatype (size),
+);
+
+3.Use database:-
+->To use database 
+    ex. USE `23dec_se`;
+
+4.Desc:-
+->See the structure of the table_name  
+    ex. DESC `employee`;
+
+5.Drop Table:-
+->To delete the table
+    ex. DROP TABLE `TABLE_NAME`;
+
+6.Drop database
+->To delete the database
+    ex. DROP DATABASE `database_name`;
+
+7.Add primary using alter:-
+->ALTER TABLE TABLE_NAME ADD PRIMARY KEY (`COLUMN_name`);
+
+8.Add unique key:-
+->ALTER TABLE TABLE_NAME ADD UNIQUE KEY (`COLUMN_name`);
+
+9.Add Column after creating a table:-
+->ALTER TABLE `table_name` ADD `column_name` data_type (size) AFTER|BEFORE `column_name`
+
+10.Add AUTO_INCREMENT:-
+->ALTER TABLE `employee` CHANGE `old_column_name` `new_column_name` data_type (size)  AUTO_INCREMENT;
+    ->AUTO_INCREMENT column default value must be not_null 
+
+11.Add Foreign key:-
+->ALTER TABLE `table_name` ADD FOREIGN KEY (`column_name`) REFERENCES `REFERENCE_table_name` (`column_name`);
+
+12.Update data:-
+->UPDATE `table_name` set `column_name`='value' WHERE  `column_name` BETWEEN 'VALUES' AND 'VALUES';

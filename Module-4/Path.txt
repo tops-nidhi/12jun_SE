@@ -1,0 +1,13 @@
+Path:-
+Locate to the file
+
+types:-
+    1.Absolute path:-
+    ->Full path
+    ->ex.,https://www.google.com
+        d:/nidhi batch/ web designing/31may_WD
+
+    2.Relative/system  path:-
+    ->Sort path 
+    ->ex., css/style.css
+        ../head.html
