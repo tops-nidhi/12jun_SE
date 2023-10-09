@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <table border="1px solid black">
+        <caption>Student data</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Percentage</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>John</td>
+                <td>58%</td>
+                <td rowspan="2">Pass</td>
+            </tr>
+            <tr>
+                <td>202</td>
+                <td>Ronie</td>
+                <td>79%</td>
+                <!-- <td>Pass</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total: 2</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

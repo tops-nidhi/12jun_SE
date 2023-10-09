@@ -2,7 +2,7 @@ HTML-Hyper Text Markup Language
 ->Html is use to define the structure of the web page
 ---------------------------------------------
 Tag:- 
--> Tag is use to tell the browser how to show the content
+-> Marked text
 <html></html>:- is the root element 
     Types:-
         1.Pair Tag
